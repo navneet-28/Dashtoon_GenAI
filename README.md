@@ -22,8 +22,8 @@ pip install jupyter tensorflow pillow numpy matplotlib
 ## Customization
 
 - Create two folders in the same directory where the notebook is present:
-  - "`/images`": for storing input images. Put your "`content.jpg`" and "`style.jpg`" under this directory.
-  - "`/outputs`": for storing generated images.
+  - `"/images"`: for storing input images. Put your "`content.jpg`" and "`style.jpg`" under this directory.
+  - `"/outputs"`: for storing generated images.
 
 ## Results
 
