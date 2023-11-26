@@ -21,10 +21,31 @@ pip install jupyter tensorflow pillow numpy matplotlib
 
 ## Customization
 
-- Create two folders in the same directory where the notebook is present:
-  - `"/images"`: for storing input images. Put your "`content.jpg`" and "`style.jpg`" under this directory.
-  - `"/outputs"`: for storing generated images.
+- There are two folders in the same directory where the notebook is present:
+  - `"/images"`: for storing input images. Put your "`content.jpg`" and "`style.jpg`" under this directory. Sample content and style images are already present there.
+  - `"/outputs"`: for storing generated style transfer images.
+
+## Open the jupyter notebook
+
+```
+jupyter notebook
+```
+- Navigate to the neural_style_transfer.ipynb file and open it.
+- Run the notebook cell by cell or all cells together.
 
 ## Results
 
 The stylized images will be saved in the outputs directory during the training process. Feel free to explore different epochs and observe how the stylization evolves.
+
+### Citation
+
+```
+@misc{gatys2015neural,
+      title={A Neural Algorithm of Artistic Style}, 
+      author={Leon A. Gatys and Alexander S. Ecker and Matthias Bethge},
+      year={2015},
+      eprint={1508.06576},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
