@@ -30,7 +30,8 @@ pip install jupyter tensorflow pillow numpy matplotlib
 ```
 jupyter notebook
 ```
-- Navigate to the neural_style_transfer.ipynb file and open it.
+
+- Navigate to the `Dashtoon_GenAI_Navneet_Singh_200625.ipynb` file and open it.
 - Run the notebook cell by cell or all cells together.
 
 ## Results
@@ -41,7 +42,7 @@ The stylized images will be saved in the outputs directory during the training p
 
 ```
 @misc{gatys2015neural,
-      title={A Neural Algorithm of Artistic Style}, 
+      title={A Neural Algorithm of Artistic Style},
       author={Leon A. Gatys and Alexander S. Ecker and Matthias Bethge},
       year={2015},
       eprint={1508.06576},
